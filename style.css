@@ -1,0 +1,134 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+html { 
+    background-color:wheat;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    scroll-behavior: smooth;
+   color: black;
+}  
+
+
+
+.header{
+    display: flexbox; 
+    align-content: center;
+    color:whitesmoke; 
+    font-size: 80px;
+}
+
+
+
+
+
+
+
+.hero-text-box{
+    position: absolute;
+    width: 1140px;
+    left: 50%;
+    top: 50%;
+    /* left to right, top to bottom */
+    transform: translate(-50%, -50%); 
+    
+}    
+
+
+
+.make-word{
+    display: inline-block;
+    text-decoration: none;
+    font-size: large;
+    margin: 5px;
+    font-weight: 300;
+    padding: 10px 30px;
+    transition: background-color 0.2s, border 0.2s;
+}
+ 
+
+
+.make-.make-word,
+.make-word:visited{
+    background-color:  #475657 ;
+    border: 1px solid  #475657;
+    border-radius: 200px;
+    color:#e5f9e0;
+    
+    
+}
+
+.make-word:hover,
+.make-word:active{
+    background-color: #475657;
+    border: 1px solid  #475657;
+    color: #e5f9e0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.money{
+    display: inline-block;
+    text-decoration: none;
+    font-size: large;
+    margin: 5px;
+    font-weight: 300;
+    padding: 10px 30px;
+    transition: background-color 0.2s, border 0.2s;
+}
+ 
+a:link{
+    text-decoration: none;
+}
+
+
+
+.money:link,
+.money:visited{
+    background-color: #47a025;
+    border: 1px solid #47a025;
+    border-radius: 200px;
+    color: white;
+    
+    
+}
+
+.money:hover,
+.money:active{
+    background-color: #47a025;
+    border: 1px solid  #47a025;
+    color: white;
+}
+
+
+
+
+
+
+
